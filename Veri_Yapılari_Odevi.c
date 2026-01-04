@@ -45,7 +45,7 @@ int ikili_arama(int A[], int bas, int son, int aranan) {
 }
 
 int main() {
-    int A[] = {64, 25, 12, 22, 3, 96, 44, 30};
+    int A[] = {87, 56, 72, 23, 3, 96, 44, 30};
     int aranan_sayi, sonuc;
 
     printf("--- Baslangic Dizisi ---\n");
