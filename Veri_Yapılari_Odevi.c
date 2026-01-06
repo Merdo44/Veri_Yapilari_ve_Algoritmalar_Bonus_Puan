@@ -1,9 +1,9 @@
 #include <stdio.h>
+#define N 9
 
 // İsim Soyisim: Mert Ali YILMAZ
 // Öğrenci Numarası: 2420171021
-// BTK Akademi Sertifikası: https://www.btkakademi.gov.tr/api/service/v1/employee/certificates/issued/download/230403454?token=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyOTgzMzU2IiwiZG9tYWluIjoiQlRLIiwiaXNzIjoiS0IiLCJwaWQiOjI5ODU3NTYsIm9pZCI6NTEsImV4cCI6MTc3NDM2NTE5NCwidXVpZCI6ImFjNDI4YzE2LWY1NGYtNGE2ZS05NDk2LWIzYjQwMjg5YzVmZSIsImlhdCI6MTc2NjU4OTE5NCwianRpIjoiMmUyMGJjMzEtZTYzZC00YThhLWI0YWUtOWQ0MjllODU0Yzc1In0.fYxeZZHidm-zXY9YFdy_ClLy700h808e_foGgdqOlAI6QctBQQA8NN8tzg8rPOzRtYCn90aNV2n3x7Zmbeg7ayxAc79XupB6tlySQ_GcvmKRNuDFEtc0BJo2jRvMhLPngIfuGt5nT1-UaK2L0rghWWMvk4Gy5vCsecUYIAmQKw-LZLZ7Ida8BrdLBy1Hx_SEAIlBKJ5EdHqhGuaL8nrBPCFJSTeeJGKy_qUErq2my-Ia_BbjHDdqlPLAASlwQFe_yr6EQY5AgoXuhKtgKhr8PL8fTOR2UXa2Ir66W7JL54nwy6srKGUJ_i_hPs87qHVj1YiX5WJwQBd7Ri0bVZpzPw
-#define N 8
+// BTK Akademi Sertifikası: https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=pKmhqp8eOD
 
 void dizi_yazdir(int dizi[], int tane) {
     int i;
@@ -45,7 +45,7 @@ int ikili_arama(int A[], int bas, int son, int aranan) {
 }
 
 int main() {
-    int A[] = {87, 56, 72, 23, 3, 96, 44, 30};
+    int A[] = {87, 56, 72, 23, 3, 96, 44, 30, 15};
     int aranan_sayi, sonuc;
 
     printf("--- Baslangic Dizisi ---\n");
